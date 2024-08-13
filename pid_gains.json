@@ -1,0 +1,13 @@
+{
+    "kpAltitude": 1.0,
+    "kdAltitude": 0.1,
+    "kpLateralPositionX": 1.2,
+    "kdLateralPositionX": 0.2,
+    "kpLateralPositionY": 1.5,
+    "kdLateralPositionY": 0.3,
+    "kpRollPitch": 0.8,
+    "kpYaw": 0.05,
+    "kpBodyRateP": 0.9,
+    "kpBodyRateQ": 0.7,
+    "kpBodyRateR": 0.5
+  }

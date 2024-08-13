@@ -1,0 +1,26 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build", // This label should match the preLaunchTask in launch.json
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g", // Include debugging information
+                "src/*.cpp", // Your source files
+                "-Iinclude", // Include directory
+                "-IC:/Users/Ronen/Desktop/eigen-3.4.0", // Eigen directory
+                "-o",
+                "bin/mpc_sim.exe", // Output executable
+                "-std=c++17",
+                "-O0" // Use O2 for optimized builds
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"], // This matches GCC output to detect errors
+            "detail": "Generated task by Debugger."
+        }
+    ]
+}
